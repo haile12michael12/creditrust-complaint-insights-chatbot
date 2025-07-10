@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Load data
-df = pd.read_csv("data/complaints_cleaned.csv")
+df = pd.read_csv("c:/data science/10 academy/week-6/Technical content/Data/complaints_cleaned.csv")
 
 # Text chunking
 splitter = RecursiveCharacterTextSplitter(
